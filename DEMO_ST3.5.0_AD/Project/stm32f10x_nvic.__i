@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\Startup -I..\Libraries\inc -I..\Libraries\src -I..\CMSIS\CM3\CoreSupport -I..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\Driver 
+-I "D:\Program files\Keil\ARM\RV31\INC" 
+-I "D:\Program files\Keil\ARM\CMSIS\Include" 
+-I "D:\Program files\Keil\ARM\Inc\ST\STM32F10x" 
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "stm32f10x_nvic.o" --omf_browse "stm32f10x_nvic.crf" --depend "stm32f10x_nvic.d" "..\Libraries\src\stm32f10x_nvic.c"

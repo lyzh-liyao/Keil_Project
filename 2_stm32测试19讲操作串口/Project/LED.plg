@@ -1,0 +1,14 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+D:\我的文档\keil_project\2_stm32测试19讲操作串口\Project\LED.uvproj
+Project File Date:  07/08/2015
+
+<h2>Output:</h2>
+Load "D:\\我的文档\\keil_project\\2_stm32测试19讲操作串口\\Project\\LED.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...

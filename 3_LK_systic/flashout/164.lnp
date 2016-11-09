@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\flashout\main.o" ".\flashout\stm32f10x_it.o" ".\flashout\stm32f10x_gpio.o" ".\flashout\stm32f10x_lib.o" ".\flashout\stm32f10x_rcc.o" ".\flashout\stm32f10x_usart.o" ".\flashout\cortexm3_macro.o" ".\flashout\stm32f10x_vector.o" --strict --scatter ".\flashout\164.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\outlist\164.map" -o ".\flashout\164.axf"

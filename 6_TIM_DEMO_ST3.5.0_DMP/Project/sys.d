@@ -1,0 +1,13 @@
+sys.o: ..\Driver\MPU6050_DMP\sys.c
+sys.o: ..\Driver\MPU6050_DMP\sys.h
+sys.o: ..\Driver\MPU6050_DMP\stm32f10x_map.h
+sys.o: ..\USER\stm32f10x_conf.h
+sys.o: ..\Libraries\inc\stm32f10x_gpio.h
+sys.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+sys.o: ..\CMSIS\CM3\CoreSupport\core_cm3.h
+sys.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+sys.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+sys.o: ..\USER\stm32f10x_conf.h
+sys.o: ..\Libraries\inc\stm32f10x_usart.h
+sys.o: ..\Libraries\inc\misc.h
+sys.o: ..\Driver\MPU6050_DMP\stm32f10x_type.h

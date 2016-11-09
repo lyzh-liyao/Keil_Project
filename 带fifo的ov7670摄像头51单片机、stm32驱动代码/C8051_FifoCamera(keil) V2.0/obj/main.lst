@@ -1,0 +1,235 @@
+C51 COMPILER V9.00   MAIN                                                                  09/22/2012 11:56:53 PAGE 1   
+
+
+C51 COMPILER V9.00, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN .\obj\main.obj
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE source\main.c BROWSE INCDIR(.\inc) DEBUG OBJECTEXTEND PRINT(.\obj\main.lst)
+                    - OBJECT(.\obj\main.obj)
+
+line level    source
+
+   1          /*******************************************************************************
+   2          *  Copyright (C) 2010 - All Rights Reserved             
+   3          * 软件作者:     骑飞家族
+   4          * 版权所有: 骑飞电子    
+   5          * 创建日期:     2010年6月10日 
+   6          * 软件历史:     2011年2月10日修改
+   7                      2012年9月20日再修改
+   8          * Version:  3.5 
+   9          * Demo 淘宝地址：http://qifeidz.taobao.com/
+  10          **********************************************************************************************************
+             -************************************
+  11          懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒
+             -懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒
+  12          懒懒懒懒懒懒懒懒懒懒懒一懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒困一懒懒懒懒懒懒懒懒懒懒
+             -懒懒懒懒一一一一一一一懒懒懒懒懒懒懒
+  13          懒懒困一一一一懒一一一一一一二懒懒懒懒困一一一一一一一一懒懒懒懒懒懒懒懒懒四厲懒懒一一懒懒懒一懒懒懒懒懒懒
+             -懒懒懒一一一一四四一一一懒懒懒懒懒懒
+  14          懒懒懒懒懒懒一懒懒懒一二一懒懒懒懒懒懒一一一一四厲二一四懒一一懒懒懒懒懒四一一一一一一一一一一一懒懒懒懒懒
+             -懒懒懒四懒懒四一一一一厲懒懒懒懒懒懒
+  15          懒懒懒四厲厲一懒懒厲懒懒懒四懒懒懒懒懒懒懒懒懒懒懒困一懒一一懒懒懒懒懒懒懒一一厲厲一一厲厲厲一一懒懒懒懒懒
+             -懒厲厲厲厲厲厲一一厲厲厲懒懒懒懒懒懒
+  16          懒懒懒一懒二一一一一一一一一一一一懒懒懒懒懒懒懒懒二一一困懒懒懒懒懒懒懒懒一一一一一一一一一一四懒懒懒懒懒
+             -一一一一一一一一一一一一一一一懒懒懒
+  17          懒懒懒一一一一一厲二一一厲一懒厲懒懒懒懒懒懒懒懒懒一一一一一懒懒懒懒懒懒懒一一懒懒一一懒懒懒一困懒懒懒懒懒
+             -一一四懒懒懒懒一一懒懒困一一四懒懒懒
+  18          懒懒懒懒懒懒懒一困一懒一厲一懒懒懒懒懒懒懒懒懒懒懒困一懒懒一一懒懒懒懒懒懒一一一一一一一一一一厲懒懒懒懒懒
+             -懒懒懒懒懒懒懒一一厲懒懒懒懒懒懒懒懒
+  19          懒二一一一懒四困厲一一一厲一懒懒懒懒懒懒懒懒懒懒懒懒一一懒懒懒懒懒懒懒懒懒懒懒懒懒四一厲懒懒懒懒懒懒一懒懒
+             -懒懒懒懒懒懒懒一一厲懒懒懒懒懒懒懒懒
+  20          懒懒懒懒懒懒一懒懒懒懒懒一一懒懒懒懒懒懒懒懒懒懒懒懒厲一一一一一一困懒懒懒懒懒懒懒懒一一一一一一一一一懒懒
+             -懒懒懒困懒懒厲一一懒懒懒懒懒懒懒懒懒
+  21          懒懒懒懒一一一懒懒困一一一一懒懒懒懒懒懒懒懒懒懒懒懒懒懒一一一一一懒懒懒懒懒懒懒懒懒懒一一一一一一一懒懒懒
+             -懒懒懒懒一一一一四懒懒懒懒懒懒懒懒懒
+  22          懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒
+             -懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒懒
+  23          **********************************************************************************************************
+             -************************************/
+  24          #include <C8051F340.h>
+  25          #include <TFT.h>
+  26          #include <delay.h>
+  27          #include<OV7670.h>
+  28          
+  29          //TFT control lines        
+  30          sbit Tft_CS_PIN=P1^4;
+  31          sbit Tft_RS_PIN=P1^5;
+  32          sbit Tft_WR_PIN=P1^6;
+  33          sbit Tft_RD_PIN=P1^7;
+  34          sbit Tft_RST_PIN=P1^2;
+  35          sbit Tft_BLK_PIN=P1^3;
+  36          //FIFO control lines
+  37          sbit FIFO_WR=P2^3;
+  38          sbit FIFO_WRST=P2^0;
+  39          sbit FIFO_RCK=P2^2;
+  40          sbit FIFO_RRST=P2^1;
+C51 COMPILER V9.00   MAIN                                                                  09/22/2012 11:56:53 PAGE 2   
+
+  41          sbit FIFO_OE=P2^4;
+  42          
+  43          //sbit CMOS_VSYNC=P0^0;
+  44          
+  45          
+  46          void OSCILLATOR_Init (void);
+  47          void Port_Init(void);
+  48          void Ext_Interrupt_Init (void);
+  49          
+  50          unsigned char Vsync_Flag;
+  51          
+  52          void main(void)
+  53          {
+  54   1              unsigned char i;
+  55   1              PCA0MD &= ~0x40;           // Disable Watchdog timer
+  56   1              OSCILLATOR_Init ();
+  57   1              Port_Init();
+  58   1      
+  59   1      
+  60   1              FIFO_RRST=0;              //reset the write address
+  61   1              FIFO_RCK=0;                 //at least one RCK clock is needed to make sure 
+  62   1              FIFO_RCK=1;     
+  63   1              FIFO_RCK=0;
+  64   1              FIFO_RCK=1;
+  65   1              FIFO_RRST=1;
+  66   1              FIFO_OE=1;              // Initialize Oscillator
+  67   1              delay(10);
+  68   1      
+  69   1      
+  70   1              Tft_Init();
+  71   1              TftClear(RED);
+  72   1      
+  73   1              TftWR_Str(20,100,"////////////////////////////////////",RED,BLACK);
+  74   1              TftWR_Str(20,120,"OV7670_FIFO_TEST BY QIFEI",RED,BLACK);        
+  75   1              TftWR_Str(20,140,"////////////////////////////////////",RED,BLACK);
+  76   1              for(i=0;i<150;i++)
+  77   1              delay(2000);
+  78   1              while(1!=Cmos7670_init());
+  79   1      
+  80   1              Ext_Interrupt_Init( );
+  81   1              Tft_CS_PIN=0;
+  82   1      
+  83   1              EA=1;
+  84   1              while(1)
+  85   1              {
+  86   2              
+  87   2              }
+  88   1      
+  89   1      }
+  90          
+  91          void OSCILLATOR_Init (void)
+  92          {
+  93   1          int i = 0;
+  94   1          FLSCL     = 0x90;
+  95   1          CLKMUL    = 0x80;
+  96   1          for (i = 0; i < 20; i++);    // Wait 5us for initialization
+  97   1          CLKMUL    |= 0xC0;
+  98   1          while ((CLKMUL & 0x20) == 0);
+  99   1          CLKSEL    = 0x03;
+ 100   1          OSCICN    = 0x83;  
+ 101   1      }
+ 102          
+C51 COMPILER V9.00   MAIN                                                                  09/22/2012 11:56:53 PAGE 3   
+
+ 103          
+ 104          //u端口初始化
+ 105          void Port_Init(void)
+ 106          {       
+ 107   1              P1MDOUT |= 0XFF;
+ 108   1              P2MDOUT |= 0XFF;
+ 109   1              XBR1     = 0x40;                    // Enable crossbar and weak pull-ups
+ 110   1      
+ 111   1      }
+ 112          
+ 113          
+ 114          void Ext_Interrupt_Init (void)
+ 115           {
+ 116   1          IT01CF    = 0x08;
+ 117   1              IT0=1;
+ 118   1          IE        = 0x01;
+ 119   1      
+ 120   1        }
+ 121          
+ 122          void INT0_ISR (void) interrupt 0  
+ 123          {       
+ 124   1          unsigned int i,j;
+ 125   1              Vsync_Flag++;
+ 126   1              if(Vsync_Flag==1)
+ 127   1              {       
+ 128   2                      FIFO_WRST=0;              //reset the write address
+ 129   2                      delay_us(100);  
+ 130   2                      FIFO_WRST=1;
+ 131   2                      FIFO_WR=1;
+ 132   2      
+ 133   2      
+ 134   2              }
+ 135   1              if(Vsync_Flag==2)
+ 136   1               {              
+ 137   2      
+ 138   2                      FIFO_WR=0;
+ 139   2                      EA=0;
+ 140   2      
+ 141   2                      
+ 142   2                      FIFO_RRST=0;              //reset the write address
+ 143   2      
+ 144   2                      FIFO_RCK=0;                 //at least one RCK clock is needed to make sure 
+ 145   2                      FIFO_RCK=1;     
+ 146   2                      FIFO_RCK=0;
+ 147   2                      FIFO_RCK=1;
+ 148   2      
+ 149   2                      FIFO_RRST=1;
+ 150   2                      FIFO_OE=1;
+ 151   2      
+ 152   2                      TftWrite(0x0003,0x1018);
+ 153   2                      TftWrite(0x0050,0x0000);
+ 154   2                      TftWrite(0x0051,0x00ef);
+ 155   2                      TftWrite(0x0052,0x0000);
+ 156   2                      TftWrite(0x0053,0x013f);
+ 157   2                      TftWrite(0x0020,0x0000);
+ 158   2                      TftWrite(0x0021,0x013f); 
+ 159   2                      TftWrite16(0x0022);
+ 160   2      
+ 161   2                      P4MDIN=0xff;
+ 162   2                      P4MDOUT=0X00;
+ 163   2                      P4=0xff;
+ 164   2      
+C51 COMPILER V9.00   MAIN                                                                  09/22/2012 11:56:53 PAGE 4   
+
+ 165   2                      Tft_CS_PIN=0;
+ 166   2                      Tft_RS_PIN=1;
+ 167   2                      
+ 168   2                      FIFO_OE=0;
+ 169   2      
+ 170   2      
+ 171   2              for(i = 0; i < 2400; i ++)      //QVGA format,240 lines;320dots every line，153600  8bit data
+ 172   2                      {
+ 173   3                              for(j = 0; j <64; j ++)
+ 174   3                              {
+ 175   4                                              FIFO_RCK=0;     
+ 176   4                                              Tft_WR_PIN=0;
+ 177   4                                              FIFO_RCK=1;     
+ 178   4                                              Tft_WR_PIN=1;   
+ 179   4                              }
+ 180   3      
+ 181   3                      }
+ 182   2                              
+ 183   2                      FIFO_OE=1;      
+ 184   2                      FIFO_WR=0;
+ 185   2      
+ 186   2                      Vsync_Flag=0;
+ 187   2                      EA=1;
+ 188   2      
+ 189   2               }
+ 190   1                      
+ 191   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    454    ----
+   CONSTANT SIZE    =     63    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      1       1
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

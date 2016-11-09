@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "main.o" "stm32f10x_it.o" "core_cm3.o" "system_stm32f10x.o" "stm32f10x_gpio.o" "stm32f10x_rcc.o" "stm32f10x_spi.o" "stm32f10x_usart.o" "misc.o" "stm32f10x_i2c.o" "stm32f10x_exti.o" "stm32f10x_wwdg.o" "stm32f10x_flash.o" "stm32f10x_systick.o" "stm32f10x_tim.o" ".\startup_stm32f10x_hd.o" "driver.o" "system_init.o" "i2c_driver.o" "imitatei2c.o" "tim_driver.o" "nrf24l01_driver.o" "nrf24l01_driver_send.o" "control_driver.o" "mpu6050_driver.o" "inv_mpu.o" "inv_mpu_dmp_motion_driver.o" "..\Driver\MPU6050_DMP\ANO_Tech_STM32F10x_I2C.lib" --library_type=microlib --strict --scatter "DEMO.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\DEMO.map" -o "DEMO.axf"

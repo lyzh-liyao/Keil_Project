@@ -1,0 +1,30 @@
+*** Creating Trace Output File '.\ramout\164.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\ramout\main.o"'
+### List of Objects: adding '".\ramout\stm32f10x_it.o"'
+### List of Objects: adding '".\ramout\stm32f10x_gpio.o"'
+### List of Objects: adding '".\ramout\stm32f10x_lib.o"'
+### List of Objects: adding '".\ramout\stm32f10x_rcc.o"'
+### List of Objects: adding '".\ramout\stm32f10x_usart.o"'
+### List of Objects: adding '".\ramout\stm32f10x_systick.o"'
+### List of Objects: adding '".\ramout\stm32f10x_spi.o"'
+### List of Objects: adding '".\ramout\cortexm3_macro.o"'
+### List of Objects: adding '".\ramout\stm32f10x_vector.o"'
+### List of Objects: adding '".\ramout\driver.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\ramout\main.o" ".\ramout\stm32f10x_it.o" ".\ramout\stm32f10x_gpio.o" ".\ramout\stm32f10x_lib.o" ".\ramout\stm32f10x_rcc.o" ".\ramout\stm32f10x_usart.o" ".\ramout\stm32f10x_systick.o" ".\ramout\stm32f10x_spi.o" ".\ramout\cortexm3_macro.o" ".\ramout\stm32f10x_vector.o" ".\ramout\driver.o" 
+--strict --scatter ".\ramout\164.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\outlist\164.map" -o .\ramout\164.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\ramout\164.axf'
+### ADS-LD Command File: '.\ramout\164.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\ramout\164.lnp', Handle=0x00000CC4
+### Writing '.lnp' file
+### ADS-LD Command file '.\ramout\164.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

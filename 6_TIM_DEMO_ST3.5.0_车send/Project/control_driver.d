@@ -1,0 +1,15 @@
+control_driver.o: ..\Driver\Control_Driver.c
+control_driver.o: C:\Keil_v4.6\ARM\ARMCC\bin\..\include\stdio.h
+control_driver.o: ..\Driver\Control_Driver.h
+control_driver.o: ..\Driver\Type.h
+control_driver.o: ..\Driver\Type.h
+control_driver.o: ..\Libraries\inc\stm32f10x_tim.h
+control_driver.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+control_driver.o: ..\CMSIS\CM3\CoreSupport\core_cm3.h
+control_driver.o: C:\Keil_v4.6\ARM\ARMCC\bin\..\include\stdint.h
+control_driver.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+control_driver.o: ..\USER\stm32f10x_conf.h
+control_driver.o: ..\Libraries\inc\stm32f10x_gpio.h
+control_driver.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+control_driver.o: ..\Libraries\inc\stm32f10x_usart.h
+control_driver.o: ..\Libraries\inc\misc.h

@@ -1,0 +1,15 @@
+ruddercontrol.o: ..\Driver\RudderControl.c
+ruddercontrol.o: ..\Driver\RudderControl.h
+ruddercontrol.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+ruddercontrol.o: ..\CMSIS\CM3\CoreSupport\core_cm3.h
+ruddercontrol.o: C:\Keil_v4.6\ARM\ARMCC\bin\..\include\stdint.h
+ruddercontrol.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+ruddercontrol.o: ..\USER\stm32f10x_conf.h
+ruddercontrol.o: ..\Libraries\inc\stm32f10x_gpio.h
+ruddercontrol.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+ruddercontrol.o: ..\Libraries\inc\stm32f10x_usart.h
+ruddercontrol.o: ..\Libraries\inc\misc.h
+ruddercontrol.o: ..\Driver\STM32_DevInit.h
+ruddercontrol.o: C:\Keil_v4.6\ARM\ARMCC\bin\..\include\stdio.h
+ruddercontrol.o: ..\Libraries\inc\stm32f10x_rcc.h
+ruddercontrol.o: ..\Libraries\inc\stm32f10x_tim.h

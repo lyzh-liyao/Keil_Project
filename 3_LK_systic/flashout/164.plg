@@ -1,0 +1,176 @@
+Build target 'Flash'
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_lib.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+assembling cortexm3_macro.s...
+assembling stm32f10x_vector.s...
+linking...
+Program Size: Code=6406 RO-data=354 RW-data=20 ZI-data=2388  
+FromELF: creating hex file...
+".\flashout\164.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Flash'
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_lib.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+assembling cortexm3_macro.s...
+assembling stm32f10x_vector.s...
+linking...
+Program Size: Code=6406 RO-data=354 RW-data=20 ZI-data=2388  
+FromELF: creating hex file...
+".\flashout\164.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Cortex\\PPT\\ST-CM3培训视频配套学习资源\\5，刘凯老师STM32视频教程—源码\\stm32_test\\7\\flashout\\164.AXF" 
+Set JLink Project File to "E:\Cortex\PPT\ST-CM3培训视频配套学习资源\5，刘凯老师STM32视频教程—源码\stm32_test\7\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VC
+VTarget = 3.351V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 3000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Flash'
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_lib.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+assembling cortexm3_macro.s...
+assembling stm32f10x_vector.s...
+linking...
+Program Size: Code=6406 RO-data=354 RW-data=20 ZI-data=2388  
+FromELF: creating hex file...
+".\flashout\164.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Cortex\\PPT\\ST-CM3培训视频配套学习资源\\5，刘凯老师STM32视频教程—源码\\stm32_test\\7\\flashout\\164.AXF" 
+Set JLink Project File to "E:\Cortex\PPT\ST-CM3培训视频配套学习资源\5，刘凯老师STM32视频教程—源码\stm32_test\7\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VC
+VTarget = 3.319V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 3000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Flash'
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_lib.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+assembling cortexm3_macro.s...
+assembling stm32f10x_vector.s...
+linking...
+Program Size: Code=6406 RO-data=354 RW-data=20 ZI-data=2388  
+FromELF: creating hex file...
+".\flashout\164.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Flash'
+compiling main.c...
+compiling stm32f10x_it.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_lib.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+assembling cortexm3_macro.s...
+assembling stm32f10x_vector.s...
+linking...
+Program Size: Code=6406 RO-data=354 RW-data=20 ZI-data=2388  
+FromELF: creating hex file...
+".\flashout\164.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Cortex\\PPT\\ST-CM3培训视频配套学习资源\\5，刘凯老师STM32视频教程—源码\\stm32_test\\7\\flashout\\164.AXF" 
+Set JLink Project File to "E:\Cortex\PPT\ST-CM3培训视频配套学习资源\5，刘凯老师STM32视频教程—源码\stm32_test\7\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103VC
+VTarget = 3.325V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 3000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.

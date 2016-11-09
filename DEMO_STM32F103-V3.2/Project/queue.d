@@ -1,0 +1,15 @@
+.\queue.o: ..\Driver\Queue.c
+.\queue.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\queue.o: ..\CMSIS\CM3\CoreSupport\core_cm3.h
+.\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\queue.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\queue.o: ..\USER\stm32f10x_conf.h
+.\queue.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\queue.o: ..\Libraries\inc\stm32f10x_dma.h
+.\queue.o: ..\Libraries\inc\stm32f10x_gpio.h
+.\queue.o: ..\Libraries\inc\stm32f10x_rcc.h
+.\queue.o: ..\Libraries\inc\stm32f10x_usart.h
+.\queue.o: ..\Libraries\inc\misc.h
+.\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\queue.o: ..\Driver\Queue.h

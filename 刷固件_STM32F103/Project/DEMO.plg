@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\资源(G：)\#个人项目\keil_project\刷固件_STM32F103\Project\DEMO.uvproj
+Project File Date:  01/03/2016
+
+<h2>Output:</h2>
+Load "E:\\资源(G：)\\#个人项目\\keil_project\\刷固件_STM32F103\\Project\\DEMO.AXF" 
+Set JLink Project File to "E:\资源(G：)\#个人项目\keil_project\刷固件_STM32F103\Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+Hardware: V8.00
+S/N : 286370559 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash 
+ 
+* JLink Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+**JLink Warning: No matching core found.
+* JLink Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+* JLink Info: TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+* JLink Info: Resetting target using RESET pin

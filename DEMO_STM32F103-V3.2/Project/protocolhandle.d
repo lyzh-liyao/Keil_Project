@@ -1,0 +1,17 @@
+.\protocolhandle.o: ..\USER\ProtocolHandle.c
+.\protocolhandle.o: ..\USER\ProtocolHandle.h
+.\protocolhandle.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\protocolhandle.o: ..\CMSIS\CM3\CoreSupport\core_cm3.h
+.\protocolhandle.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\protocolhandle.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\protocolhandle.o: ..\USER\stm32f10x_conf.h
+.\protocolhandle.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\protocolhandle.o: ..\Libraries\inc\stm32f10x_dma.h
+.\protocolhandle.o: ..\Libraries\inc\stm32f10x_gpio.h
+.\protocolhandle.o: ..\Libraries\inc\stm32f10x_rcc.h
+.\protocolhandle.o: ..\Libraries\inc\stm32f10x_usart.h
+.\protocolhandle.o: ..\Libraries\inc\misc.h
+.\protocolhandle.o: ..\Driver\Protocol.h
+.\protocolhandle.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\protocolhandle.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\protocolhandle.o: ..\Driver\Queue.h

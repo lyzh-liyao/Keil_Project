@@ -1,0 +1,24 @@
+E:\NET项目\C#\VS2008\JoyKeys\bin\Debug\JoyKeys.exe
+E:\NET项目\C#\VS2008\JoyKeys\bin\Debug\JoyKeys.pdb
+E:\NET项目\C#\VS2008\JoyKeys\obj\Debug\ResolveAssemblyReference.cache
+E:\NET项目\C#\VS2008\JoyKeys\obj\Debug\JoyKeys.Form1.resources
+E:\NET项目\C#\VS2008\JoyKeys\obj\Debug\JoyKeys.Properties.Resources.resources
+E:\NET项目\C#\VS2008\JoyKeys\obj\Debug\JoyKeys.csproj.GenerateResource.Cache
+E:\NET项目\C#\VS2008\JoyKeys\obj\Debug\JoyKeys.exe
+E:\NET项目\C#\VS2008\JoyKeys\obj\Debug\JoyKeys.pdb
+D:\我的文档\C51 Work\JoyKeys\obj\Debug\JoyKeys.exe
+D:\我的文档\C51 Work\JoyKeys\obj\Debug\JoyKeys.pdb
+D:\我的文档\C51 Work\JoyKeys\bin\Debug\JoyKeys.exe
+D:\我的文档\C51 Work\JoyKeys\bin\Debug\JoyKeys.pdb
+D:\我的文档\C51 Work\JoyKeys\obj\Debug\ResolveAssemblyReference.cache
+D:\我的文档\C51 Work\JoyKeys\obj\Debug\JoyKeys.Form1.resources
+D:\我的文档\C51 Work\JoyKeys\obj\Debug\JoyKeys.Properties.Resources.resources
+D:\我的文档\C51 Work\JoyKeys\obj\Debug\JoyKeys.csproj.GenerateResource.Cache
+D:\我的文档\keil_project\小车服务端\obj\Debug\JoyKeys.exe
+D:\我的文档\keil_project\小车服务端\obj\Debug\JoyKeys.pdb
+D:\我的文档\keil_project\小车服务端\bin\Debug\JoyKeys.exe
+D:\我的文档\keil_project\小车服务端\bin\Debug\JoyKeys.pdb
+D:\我的文档\keil_project\小车服务端\obj\Debug\ResolveAssemblyReference.cache
+D:\我的文档\keil_project\小车服务端\obj\Debug\JoyKeys.Form1.resources
+D:\我的文档\keil_project\小车服务端\obj\Debug\JoyKeys.Properties.Resources.resources
+D:\我的文档\keil_project\小车服务端\obj\Debug\JoyKeys.csproj.GenerateResource.Cache

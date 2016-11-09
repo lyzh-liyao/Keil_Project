@@ -1,0 +1,7 @@
+---- ctrlMode 匹配 (6 in 4 文件) ----
+DeviceConfig.h (D:\快盘\Evolver_CY\工程文件\MotorDrv\CODE\project\include):机器人控制模式	ctrlMode
+main.c (D:\快盘\Evolver_CY\工程文件\MotorDrv\CODE\project):uint16_t ctrlMode = MODE_MANUAL;		//控制模式
+TaskEXE.c (D:\快盘\Evolver_CY\工程文件\MotorDrv\CODE\project):		ctrlMode = MODE_AUTO;
+USARTCMD.c (D:\快盘\Evolver_CY\工程文件\MotorDrv\CODE\project):	if(ctrlMode == MODE_MANUAL)UsartCMDManual();
+USARTCMD.c (D:\快盘\Evolver_CY\工程文件\MotorDrv\CODE\project):	if(ctrlMode == MODE_AUTO)AllTaskReset();
+USARTCMD.c (D:\快盘\Evolver_CY\工程文件\MotorDrv\CODE\project):	ctrlMode = MODE_MANUAL;

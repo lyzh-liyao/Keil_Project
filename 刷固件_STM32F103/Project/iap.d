@@ -1,0 +1,14 @@
+iap.o: ..\Driver\iap.c
+iap.o: ..\Driver\iap.h
+iap.o: ..\Driver\tool.h
+iap.o: C:\Keil\ARM\RV31\INC\stdio.h
+iap.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+iap.o: ..\CMSIS\CM3\CoreSupport\core_cm3.h
+iap.o: C:\Keil\ARM\RV31\INC\stdint.h
+iap.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+iap.o: ..\USER\stm32f10x_conf.h
+iap.o: ..\Libraries\inc\stm32f10x_gpio.h
+iap.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+iap.o: ..\Libraries\inc\stm32f10x_usart.h
+iap.o: ..\Libraries\inc\misc.h
+iap.o: ..\Libraries\inc\stm32f10x_systick.h

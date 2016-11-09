@@ -1,0 +1,116 @@
+#include "ComBuff.h"
+
+static char _Uart_Tx_Buff[SEND_BUFSIZE_USART] = {0};
+QUEUE_T* Uart_Tx_Queue;
+#ifdef __24L01__H__INCLUDED__
+static char _Nrf_Tx_Buff[SEND_BUFSIZE_NRF] = {0};
+QUEUE_T* Nrf_Tx_Queue;
+#endif
+
+/****************************************************
+	函数名:	WriteByteToUSART
+	参数:		串口 数据
+	功能: 	向串口发送数据
+****************************************************/
+void WriteByteToUSART(USART_TypeDef* USARTx, u8 data){
+	while (USART_GetFlagStatus(USARTx, USART_FLAG_TC) == RESET);
+	USART_ClearFlag(USARTx, USART_FLAG_TC);
+	USART_SendData(USARTx,data);
+}
+
+
+/****************************************************
+	函数名:	fputc
+	功能: 	printf重定向
+	作者:		liyao 2015年9月8日14:10:51
+****************************************************/
+int fputc(int ch,FILE *f)
+{
+	#ifndef PRINT_ERR
+		Queue_Put(Uart_Tx_Queue, &ch); 
+	#else
+		USART_ClearFlag(USART1, USART_FLAG_TC);
+		USART_SendData(USART1, ch);
+		while(USART_GetFlagStatus(USART1, USART_FLAG_TC)==RESET) ;
+	#endif
+	return(ch);	   
+}
+
+
+/****************************************************
+	函数名:	Send_To_Buff
+	功能:		向缓冲区写入待发送至串口
+	参数:		PROTOCOL_INFO_T协议描述信息
+	作者:		liyao 2015年9月8日14:10:51
+****************************************************/
+int8_t Send_To_Buff(PROTOCOL_INFO_T* pi){
+	uint8_t i = 0,special_H,special_L;
+	uint16_t special_char;
+	uint8_t* data = (uint8_t*)&pi->protocol;
+	
+	Queue_Put(Uart_Tx_Queue, &pi->head);//写入帧头
+	Queue_Put(Uart_Tx_Queue, &pi->type);//写入帧类型
+	for(i = 0; i < pi->len; i++ ){			 //写入参数
+		if(data[i] == 0xFD || data[i] == 0xF8 || data[i] == 0xFE){//转义
+			special_char = char_special(data[i]); 
+			special_H =  special_char >> 8;
+			special_L =  special_char & 0x00ff;
+			Queue_Put(Uart_Tx_Queue,&special_H);
+			Queue_Put(Uart_Tx_Queue,&special_L);
+		}else{
+			Queue_Put(Uart_Tx_Queue, &data[i]);
+		}
+	}
+	Queue_Put(Uart_Tx_Queue, &pi->serial);//写入序号
+	Queue_Put(Uart_Tx_Queue, &pi->checksum);//写入校验和
+	Queue_Put(Uart_Tx_Queue, &pi->tail);//写入帧尾
+	return 0;
+}
+
+/****************************************************
+	函数名:	Buff_To_Uart
+	功能:		从缓冲区中取出一个字节发送至串口
+	作者:		liyao 2015年9月8日14:10:51
+****************************************************/
+void Buff_To_Uart(void){
+	int32_t data;
+	if(Queue_Get(Uart_Tx_Queue,&data) == 0){
+		while (USART_GetFlagStatus(USART1, USART_FLAG_TC) == RESET);
+		USART_ClearFlag(USART1, USART_FLAG_TC); 
+		USART_SendData(USART1,data);
+	}
+}
+#ifdef __24L01__H__INCLUDED__
+/****************************************************
+	函数名:	Buff_To_NRF
+	功能:		从缓冲区中取出最多31个字节发送至NRF24L01
+	作者:		liyao 2016年4月4日00:53:27	
+****************************************************/
+void Buff_To_NRF(void){
+	u8 data,i = 0;
+	while(Queue_Get(Nrf_Tx_Queue,&data) == 0){
+		i++;
+		nrf1->TxBuf[i] = data;
+		nrf1->TxBuf[0] = i;		
+		WriteByteToUSART(USART1, data);//无线模块发送的同时发送至串口
+		if(i == 31)
+			break;
+	}
+	if(i > 0){
+		nrf1->Set_TX_Mode(nrf1);
+		nrf1->nRF24L01_TxPacket(nrf1,nrf1->TxBuf);
+		nrf1->Set_RX_Mode(nrf1);
+	}
+}
+#endif
+/****************************************************
+	函数名:	ComBuff_Init
+	功能:		初始化全部通信缓冲区
+	作者:		liyao 2016年4月4日22:02:12 
+****************************************************/
+void ComBuff_Init(void){
+	Uart_Tx_Queue = Queue_Init( _Uart_Tx_Buff,sizeof(char), SEND_BUFSIZE_USART);
+	#ifdef __24L01__H__INCLUDED__
+	Nrf_Tx_Queue = Queue_Init( _Nrf_Tx_Buff,sizeof(char), SEND_BUFSIZE_NRF);
+	#endif
+}

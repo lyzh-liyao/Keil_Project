@@ -1,0 +1,12 @@
+adc.o: ..\Driver\ADC.c
+adc.o: ..\Libraries\inc\stm32f10x_adc.h
+adc.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+adc.o: ..\CMSIS\CM3\CoreSupport\core_cm3.h
+adc.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+adc.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+adc.o: ..\USER\stm32f10x_conf.h
+adc.o: ..\Libraries\inc\stm32f10x_gpio.h
+adc.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+adc.o: ..\Libraries\inc\stm32f10x_usart.h
+adc.o: ..\Libraries\inc\misc.h
+adc.o: ..\Libraries\inc\stm32f10x_rcc.h

@@ -1,0 +1,8 @@
+".\obj\STARTUP.obj",
+".\obj\TFT.obj",
+".\obj\OV7670.obj",
+".\obj\main.obj",
+".\obj\I2C.obj",
+".\obj\delay.obj" 
+TO ".\obj\FIFOCamera Driver" 
+PRINT(".\obj\FIFOCamera Driver.m51") RAMSIZE(256) 

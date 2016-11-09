@@ -1,0 +1,13 @@
+.\ramout\driver.o: Driver\Driver.c
+.\ramout\driver.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\ramout\driver.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\ramout\driver.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\ramout\driver.o: .\lib\inc\stm32f10x_rcc.h
+.\ramout\driver.o: .\lib\inc\stm32f10x_map.h
+.\ramout\driver.o: .\lib\inc\stm32f10x_conf.h
+.\ramout\driver.o: .\lib\inc\stm32f10x_type.h
+.\ramout\driver.o: .\lib\inc\cortexm3_macro.h
+.\ramout\driver.o: .\lib\inc\stm32f10x_gpio.h
+.\ramout\driver.o: .\lib\inc\stm32f10x_usart.h
+.\ramout\driver.o: .\lib\inc\stm32f10x_systick.h
+.\ramout\driver.o: .\lib\inc\stm32f10x_spi.h

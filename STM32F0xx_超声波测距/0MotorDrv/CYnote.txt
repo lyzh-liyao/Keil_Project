@@ -1,0 +1,69 @@
+
+
+
+
+2015.06.12 电机驱动板工程文件建立
+------------------------------------------------------
+/*
+systic初始化（STM32_DevInit.c）
+48000000 / 20000 = 24000
+每秒触发20000次中断
+*/
+void SysTick_Configuration(void)
+{
+	if (SysTick_Config(SystemCoreClock / 20000))
+	{ 
+		 /* Capture error */ 
+		while (1);
+	}
+}
+---------------------------------------------------------
+/*
+systic中断处理（stm32f0xx_it.c）
+每秒执行20000次 间隔1000000微秒 / 20000次 = 间隔50微秒
+timeTick % 10 = 20000 / 10 = 1000毫秒 / 2000次 = 间隔0.5毫秒
+timeTick % 400 = 20000 / 400 = 1000毫秒 / 50次 = 间隔20毫秒：执行向上位机报告当前状态
+*/
+void SysTick_Handler(void)
+{
+
+	timeTick++;
+	if(timeTick >= 10000)timeTick = 0;
+	if(!(timeTick%10))timeOverCon++;
+
+	if(!(timeTick % 400))		//	????20ms		
+	{
+		UpLoadState();
+	}
+}
+------------------------------------------------------------
+/*
+主函数（main.c）
+为了防止while在同一个systic周期内重复执行 判断timeTickPre != timeTick
+	如果while执行一次跨过多个systic周期则增加超时计数
+*/
+	while(1)
+	{
+		if(timeTickPre != timeTick)		//	每隔0.1ms
+		{	
+			temp = timeTick - timeTickPre;
+			if((temp > 1) && (timeTickPre != 9999))
+			{
+				timeOver++;		//??5ms???????????
+			}
+			timeTickPre = timeTick;
+			
+			DealSensors();//
+			
+			if(!(timeTick %20))			//	每隔1ms
+			{
+//TIM_SetCounter(TIM1, 0);
+				DealUsartCMD();//处理上位机串口命令总函数，单个电机运动、任务模式、获取信息等
+//timeOver = TIM_GetCounter(TIM1);
+//timeOverCon = timeOver;
+				ExecuteMotorParam();//当前dir和pwm的状态都是已经是经过一个1ms周期的稳定状态
+			}
+			
+		}
+		UsartSentDataBuf();
+	}
