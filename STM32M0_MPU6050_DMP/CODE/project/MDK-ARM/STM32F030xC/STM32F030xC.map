@@ -24,11 +24,11 @@ Section Cross References
     main.o(i.main) refers to tool.o(i.TimeTask_Init) for TimeTask_Init
     main.o(i.main) refers to i2c_driver.o(i.I2C_GPIO_Config) for I2C_GPIO_Config
     main.o(i.main) refers to dmpctl.o(i.mpu6050_dmp_init) for mpu6050_dmp_init
+    main.o(i.main) refers to printfa.o(i.__0printf) for __2printf
     main.o(i.main) refers to tool.o(i.create_SysTickStamp) for create_SysTickStamp
     main.o(i.main) refers to tool.o(i.TimeTask_add) for TimeTask_add
     main.o(i.main) refers to dmpctl.o(i.DMP_update) for DMP_update
     main.o(i.main) refers to f2d.o(.text) for __aeabi_f2d
-    main.o(i.main) refers to printfa.o(i.__0printf) for __2printf
     main.o(i.main) refers to main.o(.data) for .data
     main.o(i.main) refers to protocol.o(i.Buff_To_Uart) for Buff_To_Uart
     main.o(i.main) refers to main.o(i.test1) for test1
@@ -1868,56 +1868,56 @@ Image Symbol Table
     i.inv_row_2_scale                        0x08004520   Section        0  dmpctl.o(i.inv_row_2_scale)
     inv_row_2_scale                          0x08004521   Thumb Code    64  dmpctl.o(i.inv_row_2_scale)
     i.main                                   0x08004560   Section        0  main.o(i.main)
-    i.mpu6050_dmp_init                       0x08004608   Section        0  dmpctl.o(i.mpu6050_dmp_init)
-    i.mpu_configure_fifo                     0x08004a00   Section        0  inv_mpu.o(i.mpu_configure_fifo)
-    i.mpu_get_accel_fsr                      0x08004a5c   Section        0  inv_mpu.o(i.mpu_get_accel_fsr)
-    i.mpu_get_accel_sens                     0x08004a9c   Section        0  inv_mpu.o(i.mpu_get_accel_sens)
-    i.mpu_get_gyro_fsr                       0x08004ae4   Section        0  inv_mpu.o(i.mpu_get_gyro_fsr)
-    i.mpu_get_gyro_sens                      0x08004b1c   Section        0  inv_mpu.o(i.mpu_get_gyro_sens)
-    i.mpu_get_lpf                            0x08004b60   Section        0  inv_mpu.o(i.mpu_get_lpf)
-    i.mpu_get_sample_rate                    0x08004b9c   Section        0  inv_mpu.o(i.mpu_get_sample_rate)
-    i.mpu_init                               0x08004bbc   Section        0  inv_mpu.o(i.mpu_init)
-    i.mpu_load_firmware                      0x08004d4c   Section        0  inv_mpu.o(i.mpu_load_firmware)
-    i.mpu_lp_accel_mode                      0x08004e04   Section        0  inv_mpu.o(i.mpu_lp_accel_mode)
-    i.mpu_read_fifo_stream                   0x08004eac   Section        0  inv_mpu.o(i.mpu_read_fifo_stream)
-    i.mpu_read_mem                           0x08004f48   Section        0  inv_mpu.o(i.mpu_read_mem)
-    i.mpu_reset_fifo                         0x08004fa0   Section        0  inv_mpu.o(i.mpu_reset_fifo)
-    i.mpu_run_self_test                      0x0800510c   Section        0  inv_mpu.o(i.mpu_run_self_test)
-    i.mpu_set_accel_fsr                      0x08005204   Section        0  inv_mpu.o(i.mpu_set_accel_fsr)
-    i.mpu_set_bypass                         0x0800526c   Section        0  inv_mpu.o(i.mpu_set_bypass)
-    i.mpu_set_dmp_state                      0x08005348   Section        0  inv_mpu.o(i.mpu_set_dmp_state)
-    i.mpu_set_gyro_fsr                       0x080053c0   Section        0  inv_mpu.o(i.mpu_set_gyro_fsr)
-    i.mpu_set_int_latched                    0x08005430   Section        0  inv_mpu.o(i.mpu_set_int_latched)
-    i.mpu_set_lpf                            0x08005498   Section        0  inv_mpu.o(i.mpu_set_lpf)
-    i.mpu_set_sample_rate                    0x08005504   Section        0  inv_mpu.o(i.mpu_set_sample_rate)
-    i.mpu_set_sensors                        0x08005598   Section        0  inv_mpu.o(i.mpu_set_sensors)
-    i.mpu_write_mem                          0x08005654   Section        0  inv_mpu.o(i.mpu_write_mem)
-    i.put_byte                               0x080056ac   Section        0  protocol.o(i.put_byte)
-    i.queue_get                              0x08005790   Section        0  tool.o(i.queue_get)
-    i.queue_init                             0x08005800   Section        0  tool.o(i.queue_init)
-    i.run_protocol_check                     0x0800583c   Section        0  protocol.o(i.run_protocol_check)
-    i.run_self_test                          0x0800586c   Section        0  dmpctl.o(i.run_self_test)
-    run_self_test                            0x0800586d   Thumb Code   132  dmpctl.o(i.run_self_test)
-    i.set_int_enable                         0x08005938   Section        0  inv_mpu.o(i.set_int_enable)
-    set_int_enable                           0x08005939   Thumb Code    96  inv_mpu.o(i.set_int_enable)
-    i.sqrt                                   0x0800599c   Section        0  sqrt.o(i.sqrt)
-    i.test1                                  0x080059e4   Section        0  main.o(i.test1)
-    i.wing_protocol_check                    0x080059ec   Section        0  protocol.o(i.wing_protocol_check)
-    .constdata                               0x08005a1a   Section       12  inv_mpu.o(.constdata)
-    .constdata                               0x08005a26   Section       27  inv_mpu.o(.constdata)
-    .constdata                               0x08005a44   Section       40  inv_mpu.o(.constdata)
-    .constdata                               0x08005a6c   Section     3062  inv_mpu_dmp_motion_driver.o(.constdata)
-    dmp_memory                               0x08005a6c   Data        3062  inv_mpu_dmp_motion_driver.o(.constdata)
-    .constdata                               0x08006668   Section       80  asin.o(.constdata)
-    pS                                       0x08006668   Data          48  asin.o(.constdata)
-    qS                                       0x08006698   Data          32  asin.o(.constdata)
-    .constdata                               0x080066b8   Section      152  atan.o(.constdata)
-    atanhi                                   0x080066b8   Data          32  atan.o(.constdata)
-    atanlo                                   0x080066d8   Data          32  atan.o(.constdata)
-    aTodd                                    0x080066f8   Data          40  atan.o(.constdata)
-    aTeven                                   0x08006720   Data          48  atan.o(.constdata)
-    .constdata                               0x08006750   Section        8  qnan.o(.constdata)
-    .conststring                             0x08006758   Section       78  inv_mpu.o(.conststring)
+    i.mpu6050_dmp_init                       0x08004618   Section        0  dmpctl.o(i.mpu6050_dmp_init)
+    i.mpu_configure_fifo                     0x08004a10   Section        0  inv_mpu.o(i.mpu_configure_fifo)
+    i.mpu_get_accel_fsr                      0x08004a6c   Section        0  inv_mpu.o(i.mpu_get_accel_fsr)
+    i.mpu_get_accel_sens                     0x08004aac   Section        0  inv_mpu.o(i.mpu_get_accel_sens)
+    i.mpu_get_gyro_fsr                       0x08004af4   Section        0  inv_mpu.o(i.mpu_get_gyro_fsr)
+    i.mpu_get_gyro_sens                      0x08004b2c   Section        0  inv_mpu.o(i.mpu_get_gyro_sens)
+    i.mpu_get_lpf                            0x08004b70   Section        0  inv_mpu.o(i.mpu_get_lpf)
+    i.mpu_get_sample_rate                    0x08004bac   Section        0  inv_mpu.o(i.mpu_get_sample_rate)
+    i.mpu_init                               0x08004bcc   Section        0  inv_mpu.o(i.mpu_init)
+    i.mpu_load_firmware                      0x08004d5c   Section        0  inv_mpu.o(i.mpu_load_firmware)
+    i.mpu_lp_accel_mode                      0x08004e14   Section        0  inv_mpu.o(i.mpu_lp_accel_mode)
+    i.mpu_read_fifo_stream                   0x08004ebc   Section        0  inv_mpu.o(i.mpu_read_fifo_stream)
+    i.mpu_read_mem                           0x08004f58   Section        0  inv_mpu.o(i.mpu_read_mem)
+    i.mpu_reset_fifo                         0x08004fb0   Section        0  inv_mpu.o(i.mpu_reset_fifo)
+    i.mpu_run_self_test                      0x0800511c   Section        0  inv_mpu.o(i.mpu_run_self_test)
+    i.mpu_set_accel_fsr                      0x08005214   Section        0  inv_mpu.o(i.mpu_set_accel_fsr)
+    i.mpu_set_bypass                         0x0800527c   Section        0  inv_mpu.o(i.mpu_set_bypass)
+    i.mpu_set_dmp_state                      0x08005358   Section        0  inv_mpu.o(i.mpu_set_dmp_state)
+    i.mpu_set_gyro_fsr                       0x080053d0   Section        0  inv_mpu.o(i.mpu_set_gyro_fsr)
+    i.mpu_set_int_latched                    0x08005440   Section        0  inv_mpu.o(i.mpu_set_int_latched)
+    i.mpu_set_lpf                            0x080054a8   Section        0  inv_mpu.o(i.mpu_set_lpf)
+    i.mpu_set_sample_rate                    0x08005514   Section        0  inv_mpu.o(i.mpu_set_sample_rate)
+    i.mpu_set_sensors                        0x080055a8   Section        0  inv_mpu.o(i.mpu_set_sensors)
+    i.mpu_write_mem                          0x08005664   Section        0  inv_mpu.o(i.mpu_write_mem)
+    i.put_byte                               0x080056bc   Section        0  protocol.o(i.put_byte)
+    i.queue_get                              0x080057a0   Section        0  tool.o(i.queue_get)
+    i.queue_init                             0x08005810   Section        0  tool.o(i.queue_init)
+    i.run_protocol_check                     0x0800584c   Section        0  protocol.o(i.run_protocol_check)
+    i.run_self_test                          0x0800587c   Section        0  dmpctl.o(i.run_self_test)
+    run_self_test                            0x0800587d   Thumb Code   132  dmpctl.o(i.run_self_test)
+    i.set_int_enable                         0x08005948   Section        0  inv_mpu.o(i.set_int_enable)
+    set_int_enable                           0x08005949   Thumb Code    96  inv_mpu.o(i.set_int_enable)
+    i.sqrt                                   0x080059ac   Section        0  sqrt.o(i.sqrt)
+    i.test1                                  0x080059f4   Section        0  main.o(i.test1)
+    i.wing_protocol_check                    0x080059fc   Section        0  protocol.o(i.wing_protocol_check)
+    .constdata                               0x08005a2a   Section       12  inv_mpu.o(.constdata)
+    .constdata                               0x08005a36   Section       27  inv_mpu.o(.constdata)
+    .constdata                               0x08005a54   Section       40  inv_mpu.o(.constdata)
+    .constdata                               0x08005a7c   Section     3062  inv_mpu_dmp_motion_driver.o(.constdata)
+    dmp_memory                               0x08005a7c   Data        3062  inv_mpu_dmp_motion_driver.o(.constdata)
+    .constdata                               0x08006678   Section       80  asin.o(.constdata)
+    pS                                       0x08006678   Data          48  asin.o(.constdata)
+    qS                                       0x080066a8   Data          32  asin.o(.constdata)
+    .constdata                               0x080066c8   Section      152  atan.o(.constdata)
+    atanhi                                   0x080066c8   Data          32  atan.o(.constdata)
+    atanlo                                   0x080066e8   Data          32  atan.o(.constdata)
+    aTodd                                    0x08006708   Data          40  atan.o(.constdata)
+    aTeven                                   0x08006730   Data          48  atan.o(.constdata)
+    .constdata                               0x08006760   Section        8  qnan.o(.constdata)
+    .conststring                             0x08006768   Section       78  inv_mpu.o(.conststring)
     .data                                    0x20000000   Section        4  main.o(.data)
     .data                                    0x20000004   Section        4  main.o(.data)
     .data                                    0x20000008   Section        1  main.o(.data)
@@ -2226,44 +2226,44 @@ Image Symbol Table
     fputc                                    0x08004021   Thumb Code    38  protocol.o(i.fputc)
     get_ms                                   0x080040f1   Thumb Code     2  ioi2c.o(i.get_ms)
     head_protocol_check                      0x080044f9   Thumb Code    40  protocol.o(i.head_protocol_check)
-    main                                     0x08004561   Thumb Code   130  main.o(i.main)
-    mpu6050_dmp_init                         0x08004609   Thumb Code   224  dmpctl.o(i.mpu6050_dmp_init)
-    mpu_configure_fifo                       0x08004a01   Thumb Code    86  inv_mpu.o(i.mpu_configure_fifo)
-    mpu_get_accel_fsr                        0x08004a5d   Thumb Code    58  inv_mpu.o(i.mpu_get_accel_fsr)
-    mpu_get_accel_sens                       0x08004a9d   Thumb Code    64  inv_mpu.o(i.mpu_get_accel_sens)
-    mpu_get_gyro_fsr                         0x08004ae5   Thumb Code    50  inv_mpu.o(i.mpu_get_gyro_fsr)
-    mpu_get_gyro_sens                        0x08004b1d   Thumb Code    46  inv_mpu.o(i.mpu_get_gyro_sens)
-    mpu_get_lpf                              0x08004b61   Thumb Code    54  inv_mpu.o(i.mpu_get_lpf)
-    mpu_get_sample_rate                      0x08004b9d   Thumb Code    26  inv_mpu.o(i.mpu_get_sample_rate)
-    mpu_init                                 0x08004bbd   Thumb Code   318  inv_mpu.o(i.mpu_init)
-    mpu_load_firmware                        0x08004d4d   Thumb Code   174  inv_mpu.o(i.mpu_load_firmware)
-    mpu_lp_accel_mode                        0x08004e05   Thumb Code   162  inv_mpu.o(i.mpu_lp_accel_mode)
-    mpu_read_fifo_stream                     0x08004ead   Thumb Code   152  inv_mpu.o(i.mpu_read_fifo_stream)
-    mpu_read_mem                             0x08004f49   Thumb Code    80  inv_mpu.o(i.mpu_read_mem)
-    mpu_reset_fifo                           0x08004fa1   Thumb Code   358  inv_mpu.o(i.mpu_reset_fifo)
-    mpu_run_self_test                        0x0800510d   Thumb Code   242  inv_mpu.o(i.mpu_run_self_test)
-    mpu_set_accel_fsr                        0x08005205   Thumb Code   100  inv_mpu.o(i.mpu_set_accel_fsr)
-    mpu_set_bypass                           0x0800526d   Thumb Code   216  inv_mpu.o(i.mpu_set_bypass)
-    mpu_set_dmp_state                        0x08005349   Thumb Code   114  inv_mpu.o(i.mpu_set_dmp_state)
-    mpu_set_gyro_fsr                         0x080053c1   Thumb Code   106  inv_mpu.o(i.mpu_set_gyro_fsr)
-    mpu_set_int_latched                      0x08005431   Thumb Code   100  inv_mpu.o(i.mpu_set_int_latched)
-    mpu_set_lpf                              0x08005499   Thumb Code   104  inv_mpu.o(i.mpu_set_lpf)
-    mpu_set_sample_rate                      0x08005505   Thumb Code   142  inv_mpu.o(i.mpu_set_sample_rate)
-    mpu_set_sensors                          0x08005599   Thumb Code   184  inv_mpu.o(i.mpu_set_sensors)
-    mpu_write_mem                            0x08005655   Thumb Code    80  inv_mpu.o(i.mpu_write_mem)
-    put_byte                                 0x080056ad   Thumb Code   218  protocol.o(i.put_byte)
-    queue_get                                0x08005791   Thumb Code   112  tool.o(i.queue_get)
-    queue_init                               0x08005801   Thumb Code    54  tool.o(i.queue_init)
-    run_protocol_check                       0x0800583d   Thumb Code    46  protocol.o(i.run_protocol_check)
-    sqrt                                     0x0800599d   Thumb Code    66  sqrt.o(i.sqrt)
-    test1                                    0x080059e5   Thumb Code     8  main.o(i.test1)
-    wing_protocol_check                      0x080059ed   Thumb Code    46  protocol.o(i.wing_protocol_check)
-    hw                                       0x08005a1a   Data          12  inv_mpu.o(.constdata)
-    reg                                      0x08005a26   Data          27  inv_mpu.o(.constdata)
-    test                                     0x08005a44   Data          40  inv_mpu.o(.constdata)
-    __mathlib_zero                           0x08006750   Data           8  qnan.o(.constdata)
-    Region$$Table$$Base                      0x080067a8   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x080067c8   Number         0  anon$$obj.o(Region$$Table)
+    main                                     0x08004561   Thumb Code   136  main.o(i.main)
+    mpu6050_dmp_init                         0x08004619   Thumb Code   224  dmpctl.o(i.mpu6050_dmp_init)
+    mpu_configure_fifo                       0x08004a11   Thumb Code    86  inv_mpu.o(i.mpu_configure_fifo)
+    mpu_get_accel_fsr                        0x08004a6d   Thumb Code    58  inv_mpu.o(i.mpu_get_accel_fsr)
+    mpu_get_accel_sens                       0x08004aad   Thumb Code    64  inv_mpu.o(i.mpu_get_accel_sens)
+    mpu_get_gyro_fsr                         0x08004af5   Thumb Code    50  inv_mpu.o(i.mpu_get_gyro_fsr)
+    mpu_get_gyro_sens                        0x08004b2d   Thumb Code    46  inv_mpu.o(i.mpu_get_gyro_sens)
+    mpu_get_lpf                              0x08004b71   Thumb Code    54  inv_mpu.o(i.mpu_get_lpf)
+    mpu_get_sample_rate                      0x08004bad   Thumb Code    26  inv_mpu.o(i.mpu_get_sample_rate)
+    mpu_init                                 0x08004bcd   Thumb Code   318  inv_mpu.o(i.mpu_init)
+    mpu_load_firmware                        0x08004d5d   Thumb Code   174  inv_mpu.o(i.mpu_load_firmware)
+    mpu_lp_accel_mode                        0x08004e15   Thumb Code   162  inv_mpu.o(i.mpu_lp_accel_mode)
+    mpu_read_fifo_stream                     0x08004ebd   Thumb Code   152  inv_mpu.o(i.mpu_read_fifo_stream)
+    mpu_read_mem                             0x08004f59   Thumb Code    80  inv_mpu.o(i.mpu_read_mem)
+    mpu_reset_fifo                           0x08004fb1   Thumb Code   358  inv_mpu.o(i.mpu_reset_fifo)
+    mpu_run_self_test                        0x0800511d   Thumb Code   242  inv_mpu.o(i.mpu_run_self_test)
+    mpu_set_accel_fsr                        0x08005215   Thumb Code   100  inv_mpu.o(i.mpu_set_accel_fsr)
+    mpu_set_bypass                           0x0800527d   Thumb Code   216  inv_mpu.o(i.mpu_set_bypass)
+    mpu_set_dmp_state                        0x08005359   Thumb Code   114  inv_mpu.o(i.mpu_set_dmp_state)
+    mpu_set_gyro_fsr                         0x080053d1   Thumb Code   106  inv_mpu.o(i.mpu_set_gyro_fsr)
+    mpu_set_int_latched                      0x08005441   Thumb Code   100  inv_mpu.o(i.mpu_set_int_latched)
+    mpu_set_lpf                              0x080054a9   Thumb Code   104  inv_mpu.o(i.mpu_set_lpf)
+    mpu_set_sample_rate                      0x08005515   Thumb Code   142  inv_mpu.o(i.mpu_set_sample_rate)
+    mpu_set_sensors                          0x080055a9   Thumb Code   184  inv_mpu.o(i.mpu_set_sensors)
+    mpu_write_mem                            0x08005665   Thumb Code    80  inv_mpu.o(i.mpu_write_mem)
+    put_byte                                 0x080056bd   Thumb Code   218  protocol.o(i.put_byte)
+    queue_get                                0x080057a1   Thumb Code   112  tool.o(i.queue_get)
+    queue_init                               0x08005811   Thumb Code    54  tool.o(i.queue_init)
+    run_protocol_check                       0x0800584d   Thumb Code    46  protocol.o(i.run_protocol_check)
+    sqrt                                     0x080059ad   Thumb Code    66  sqrt.o(i.sqrt)
+    test1                                    0x080059f5   Thumb Code     8  main.o(i.test1)
+    wing_protocol_check                      0x080059fd   Thumb Code    46  protocol.o(i.wing_protocol_check)
+    hw                                       0x08005a2a   Data          12  inv_mpu.o(.constdata)
+    reg                                      0x08005a36   Data          27  inv_mpu.o(.constdata)
+    test                                     0x08005a54   Data          40  inv_mpu.o(.constdata)
+    __mathlib_zero                           0x08006760   Data           8  qnan.o(.constdata)
+    Region$$Table$$Base                      0x080067b8   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x080067d8   Number         0  anon$$obj.o(Region$$Table)
     timeTick                                 0x20000000   Data           4  main.o(.data)
     timeTickLast                             0x20000004   Data           4  main.o(.data)
     System_Mode                              0x20000008   Data           1  main.o(.data)
@@ -2318,9 +2318,9 @@ Memory Map of the image
 
   Image Entry point : 0x080000b5
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x000068a4, Max: 0x00010000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x000068b4, Max: 0x00010000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x000067c8, Max: 0x00010000, ABSOLUTE)
+    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x000067d8, Max: 0x00010000, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -2512,53 +2512,53 @@ Memory Map of the image
     0x0800442c   0x000000cc   Code   RO         3224    i.gyro_self_test    inv_mpu.o
     0x080044f8   0x00000028   Code   RO          529    i.head_protocol_check  protocol.o
     0x08004520   0x00000040   Code   RO         3163    i.inv_row_2_scale   dmpctl.o
-    0x08004560   0x000000a8   Code   RO            8    i.main              main.o
-    0x08004608   0x000003f8   Code   RO         3164    i.mpu6050_dmp_init  dmpctl.o
-    0x08004a00   0x0000005c   Code   RO         3225    i.mpu_configure_fifo  inv_mpu.o
-    0x08004a5c   0x00000040   Code   RO         3226    i.mpu_get_accel_fsr  inv_mpu.o
-    0x08004a9c   0x00000048   Code   RO         3228    i.mpu_get_accel_sens  inv_mpu.o
-    0x08004ae4   0x00000038   Code   RO         3234    i.mpu_get_gyro_fsr  inv_mpu.o
-    0x08004b1c   0x00000044   Code   RO         3236    i.mpu_get_gyro_sens  inv_mpu.o
-    0x08004b60   0x0000003c   Code   RO         3238    i.mpu_get_lpf       inv_mpu.o
-    0x08004b9c   0x00000020   Code   RO         3240    i.mpu_get_sample_rate  inv_mpu.o
-    0x08004bbc   0x00000190   Code   RO         3242    i.mpu_init          inv_mpu.o
-    0x08004d4c   0x000000b8   Code   RO         3243    i.mpu_load_firmware  inv_mpu.o
-    0x08004e04   0x000000a8   Code   RO         3244    i.mpu_lp_accel_mode  inv_mpu.o
-    0x08004eac   0x0000009c   Code   RO         3247    i.mpu_read_fifo_stream  inv_mpu.o
-    0x08004f48   0x00000058   Code   RO         3248    i.mpu_read_mem      inv_mpu.o
-    0x08004fa0   0x0000016c   Code   RO         3251    i.mpu_reset_fifo    inv_mpu.o
-    0x0800510c   0x000000f8   Code   RO         3252    i.mpu_run_self_test  inv_mpu.o
-    0x08005204   0x00000068   Code   RO         3254    i.mpu_set_accel_fsr  inv_mpu.o
-    0x0800526c   0x000000dc   Code   RO         3255    i.mpu_set_bypass    inv_mpu.o
-    0x08005348   0x00000078   Code   RO         3257    i.mpu_set_dmp_state  inv_mpu.o
-    0x080053c0   0x00000070   Code   RO         3258    i.mpu_set_gyro_fsr  inv_mpu.o
-    0x08005430   0x00000068   Code   RO         3259    i.mpu_set_int_latched  inv_mpu.o
-    0x08005498   0x0000006c   Code   RO         3261    i.mpu_set_lpf       inv_mpu.o
-    0x08005504   0x00000094   Code   RO         3262    i.mpu_set_sample_rate  inv_mpu.o
-    0x08005598   0x000000bc   Code   RO         3263    i.mpu_set_sensors   inv_mpu.o
-    0x08005654   0x00000058   Code   RO         3264    i.mpu_write_mem     inv_mpu.o
-    0x080056ac   0x000000e4   Code   RO          532    i.put_byte          protocol.o
-    0x08005790   0x00000070   Code   RO          663    i.queue_get         tool.o
-    0x08005800   0x0000003c   Code   RO          664    i.queue_init        tool.o
-    0x0800583c   0x0000002e   Code   RO          533    i.run_protocol_check  protocol.o
-    0x0800586a   0x00000002   PAD
-    0x0800586c   0x000000cc   Code   RO         3165    i.run_self_test     dmpctl.o
-    0x08005938   0x00000064   Code   RO         3265    i.set_int_enable    inv_mpu.o
-    0x0800599c   0x00000048   Code   RO         4188    i.sqrt              m_ps.l(sqrt.o)
-    0x080059e4   0x00000008   Code   RO            9    i.test1             main.o
-    0x080059ec   0x0000002e   Code   RO          535    i.wing_protocol_check  protocol.o
-    0x08005a1a   0x0000000c   Data   RO         3266    .constdata          inv_mpu.o
-    0x08005a26   0x0000001b   Data   RO         3267    .constdata          inv_mpu.o
-    0x08005a41   0x00000003   PAD
-    0x08005a44   0x00000028   Data   RO         3268    .constdata          inv_mpu.o
-    0x08005a6c   0x00000bf6   Data   RO         3543    .constdata          inv_mpu_dmp_motion_driver.o
-    0x08006662   0x00000006   PAD
-    0x08006668   0x00000050   Data   RO         3828    .constdata          m_ps.l(asin.o)
-    0x080066b8   0x00000098   Data   RO         4160    .constdata          m_ps.l(atan.o)
-    0x08006750   0x00000008   Data   RO         4186    .constdata          m_ps.l(qnan.o)
-    0x08006758   0x0000004e   Data   RO         3269    .conststring        inv_mpu.o
-    0x080067a6   0x00000002   PAD
-    0x080067a8   0x00000020   Data   RO         4244    Region$$Table       anon$$obj.o
+    0x08004560   0x000000b8   Code   RO            8    i.main              main.o
+    0x08004618   0x000003f8   Code   RO         3164    i.mpu6050_dmp_init  dmpctl.o
+    0x08004a10   0x0000005c   Code   RO         3225    i.mpu_configure_fifo  inv_mpu.o
+    0x08004a6c   0x00000040   Code   RO         3226    i.mpu_get_accel_fsr  inv_mpu.o
+    0x08004aac   0x00000048   Code   RO         3228    i.mpu_get_accel_sens  inv_mpu.o
+    0x08004af4   0x00000038   Code   RO         3234    i.mpu_get_gyro_fsr  inv_mpu.o
+    0x08004b2c   0x00000044   Code   RO         3236    i.mpu_get_gyro_sens  inv_mpu.o
+    0x08004b70   0x0000003c   Code   RO         3238    i.mpu_get_lpf       inv_mpu.o
+    0x08004bac   0x00000020   Code   RO         3240    i.mpu_get_sample_rate  inv_mpu.o
+    0x08004bcc   0x00000190   Code   RO         3242    i.mpu_init          inv_mpu.o
+    0x08004d5c   0x000000b8   Code   RO         3243    i.mpu_load_firmware  inv_mpu.o
+    0x08004e14   0x000000a8   Code   RO         3244    i.mpu_lp_accel_mode  inv_mpu.o
+    0x08004ebc   0x0000009c   Code   RO         3247    i.mpu_read_fifo_stream  inv_mpu.o
+    0x08004f58   0x00000058   Code   RO         3248    i.mpu_read_mem      inv_mpu.o
+    0x08004fb0   0x0000016c   Code   RO         3251    i.mpu_reset_fifo    inv_mpu.o
+    0x0800511c   0x000000f8   Code   RO         3252    i.mpu_run_self_test  inv_mpu.o
+    0x08005214   0x00000068   Code   RO         3254    i.mpu_set_accel_fsr  inv_mpu.o
+    0x0800527c   0x000000dc   Code   RO         3255    i.mpu_set_bypass    inv_mpu.o
+    0x08005358   0x00000078   Code   RO         3257    i.mpu_set_dmp_state  inv_mpu.o
+    0x080053d0   0x00000070   Code   RO         3258    i.mpu_set_gyro_fsr  inv_mpu.o
+    0x08005440   0x00000068   Code   RO         3259    i.mpu_set_int_latched  inv_mpu.o
+    0x080054a8   0x0000006c   Code   RO         3261    i.mpu_set_lpf       inv_mpu.o
+    0x08005514   0x00000094   Code   RO         3262    i.mpu_set_sample_rate  inv_mpu.o
+    0x080055a8   0x000000bc   Code   RO         3263    i.mpu_set_sensors   inv_mpu.o
+    0x08005664   0x00000058   Code   RO         3264    i.mpu_write_mem     inv_mpu.o
+    0x080056bc   0x000000e4   Code   RO          532    i.put_byte          protocol.o
+    0x080057a0   0x00000070   Code   RO          663    i.queue_get         tool.o
+    0x08005810   0x0000003c   Code   RO          664    i.queue_init        tool.o
+    0x0800584c   0x0000002e   Code   RO          533    i.run_protocol_check  protocol.o
+    0x0800587a   0x00000002   PAD
+    0x0800587c   0x000000cc   Code   RO         3165    i.run_self_test     dmpctl.o
+    0x08005948   0x00000064   Code   RO         3265    i.set_int_enable    inv_mpu.o
+    0x080059ac   0x00000048   Code   RO         4188    i.sqrt              m_ps.l(sqrt.o)
+    0x080059f4   0x00000008   Code   RO            9    i.test1             main.o
+    0x080059fc   0x0000002e   Code   RO          535    i.wing_protocol_check  protocol.o
+    0x08005a2a   0x0000000c   Data   RO         3266    .constdata          inv_mpu.o
+    0x08005a36   0x0000001b   Data   RO         3267    .constdata          inv_mpu.o
+    0x08005a51   0x00000003   PAD
+    0x08005a54   0x00000028   Data   RO         3268    .constdata          inv_mpu.o
+    0x08005a7c   0x00000bf6   Data   RO         3543    .constdata          inv_mpu_dmp_motion_driver.o
+    0x08006672   0x00000006   PAD
+    0x08006678   0x00000050   Data   RO         3828    .constdata          m_ps.l(asin.o)
+    0x080066c8   0x00000098   Data   RO         4160    .constdata          m_ps.l(atan.o)
+    0x08006760   0x00000008   Data   RO         4186    .constdata          m_ps.l(qnan.o)
+    0x08006768   0x0000004e   Data   RO         3269    .conststring        inv_mpu.o
+    0x080067b6   0x00000002   PAD
+    0x080067b8   0x00000020   Data   RO         4244    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x00000c58, Max: 0x00002000, ABSOLUTE)
@@ -2601,32 +2601,32 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-      1720        880          0         57         16       4239   dmpctl.o
-       874         40          0          0          0       8178   i2c_driver.o
-      4678        300        157         44          0      26057   inv_mpu.o
-      2342        166       3062          0         16      19526   inv_mpu_dmp_motion_driver.o
+      1720        880          0         57         16       4235   dmpctl.o
+       874         40          0          0          0       8166   i2c_driver.o
+      4678        300        157         44          0      26017   inv_mpu.o
+      2342        166       3062          0         16      19494   inv_mpu_dmp_motion_driver.o
          2          0          0          4          0        649   ioi2c.o
-       176         38          0          9        200     259286   main.o
-         0          0          0          0        332       5228   motordriver.o
+       192         48          0          9        200     259274   main.o
+         0          0          0          0        332       5224   motordriver.o
        664        138          0         14         10       2660   mpu6050_driver.o
-       706         62          0         25        736       9067   protocol.o
-        88         38        180          0       1024        792   startup_stm32f030.o
-      1200         94          0          0          0      11365   stm32_devinit.o
-       208          6          0          0          0       6725   stm32f0xx_adc.o
+       706         62          0         25        736       9059   protocol.o
+        88         38        180          0       1024        788   startup_stm32f030.o
+      1200         94          0          0          0      11345   stm32_devinit.o
+       208          6          0          0          0       6721   stm32f0xx_adc.o
        276         22          0          0          0       3974   stm32f0xx_dma.o
-       140         16          0          0          0       2572   stm32f0xx_exti.o
+       140         16          0          0          0       2568   stm32f0xx_exti.o
        158          0          0          0          0       2843   stm32f0xx_gpio.o
-       476         62          0          0          0       3665   stm32f0xx_it.o
+       476         62          0          0          0       3661   stm32f0xx_it.o
         80         10          0          0          0       1184   stm32f0xx_misc.o
-       448         48          0         16          0       4246   stm32f0xx_rcc.o
-        40          6          0          0          0        748   stm32f0xx_syscfg.o
-       464         68          0          0          0       6517   stm32f0xx_tim.o
-       320         20          0          0          0       6899   stm32f0xx_usart.o
+       448         48          0         16          0       4242   stm32f0xx_rcc.o
+        40          6          0          0          0        744   stm32f0xx_syscfg.o
+       464         68          0          0          0       6505   stm32f0xx_tim.o
+       320         20          0          0          0       6887   stm32f0xx_usart.o
        248         22          0         20          0       1677   system_stm32f0xx.o
-       496         48          0         12        600       6630   tool.o
+       496         48          0         12        600       6622   tool.o
 
     ----------------------------------------------------------------------
-     15830       2084       3442        212       2940     394727   Object Totals
+     15846       2094       3442        212       2940     394539   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         26          0         11         11          6          0   (incl. Padding)
 
@@ -2711,15 +2711,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     22886       2428       3682        220       2940     390691   Grand Totals
-     22886       2428       3682        220       2940     390691   ELF Image Totals
-     22886       2428       3682        220          0          0   ROM Totals
+     22902       2438       3682        220       2940     390503   Grand Totals
+     22902       2438       3682        220       2940     390503   ELF Image Totals
+     22902       2438       3682        220          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                26568 (  25.95kB)
+    Total RO  Size (Code + RO Data)                26584 (  25.96kB)
     Total RW  Size (RW Data + ZI Data)              3160 (   3.09kB)
-    Total ROM Size (Code + RO Data + RW Data)      26788 (  26.16kB)
+    Total ROM Size (Code + RO Data + RW Data)      26804 (  26.18kB)
 
 ==============================================================================
 

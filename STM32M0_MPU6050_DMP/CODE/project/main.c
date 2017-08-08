@@ -186,7 +186,7 @@ int main(void)
 	
 	
 	//
-	//printf("in main\r\n");
+	printf("in main\r\n");
 	//testwing();
 	//test();
 	

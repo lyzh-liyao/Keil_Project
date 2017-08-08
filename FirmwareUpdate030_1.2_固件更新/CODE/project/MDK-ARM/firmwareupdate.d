@@ -1,0 +1,16 @@
+.\firmwareupdate.o: ..\FirmwareUpdate.c
+.\firmwareupdate.o: ..\include\FirmwareUpdate.h
+.\firmwareupdate.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_flash.h
+.\firmwareupdate.o: C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\stm32f0xx.h
+.\firmwareupdate.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\CMSIS\Include\core_cm0.h
+.\firmwareupdate.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\firmwareupdate.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\CMSIS\Include\core_cmInstr.h
+.\firmwareupdate.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\CMSIS\Include\core_cmFunc.h
+.\firmwareupdate.o: C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h
+.\firmwareupdate.o: ..\include\stm32f0xx_conf.h
+.\firmwareupdate.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h
+.\firmwareupdate.o: C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\stm32f0xx.h
+.\firmwareupdate.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h
+.\firmwareupdate.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h
+.\firmwareupdate.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h
+.\firmwareupdate.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h

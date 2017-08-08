@@ -782,6 +782,22 @@
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
+        <Bp>
+          <Number>39</Number>
+          <Type>0</Type>
+          <LineNumber>129</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>..\STM32_DevInit.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
       </Breakpoint>
       <Tracepoint>
         <THDelay>0</THDelay>
@@ -1579,6 +1595,22 @@
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
+        <Bp>
+          <Number>39</Number>
+          <Type>0</Type>
+          <LineNumber>129</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>..\STM32_DevInit.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
       </Breakpoint>
       <Tracepoint>
         <THDelay>0</THDelay>
@@ -2363,6 +2395,22 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>0</BreakIfRCount>
           <Filename>..\MPU6050dmp\inv_mpu_dmp_motion_driver.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>39</Number>
+          <Type>0</Type>
+          <LineNumber>129</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>..\STM32_DevInit.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
@@ -3163,6 +3211,22 @@
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
+        <Bp>
+          <Number>39</Number>
+          <Type>0</Type>
+          <LineNumber>129</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>..\STM32_DevInit.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
       </Breakpoint>
       <Tracepoint>
         <THDelay>0</THDelay>
@@ -3960,6 +4024,22 @@
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
+        <Bp>
+          <Number>39</Number>
+          <Type>0</Type>
+          <LineNumber>129</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>..\STM32_DevInit.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
       </Breakpoint>
       <Tracepoint>
         <THDelay>0</THDelay>
@@ -4747,6 +4827,22 @@
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
+        <Bp>
+          <Number>39</Number>
+          <Type>0</Type>
+          <LineNumber>129</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>..\STM32_DevInit.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
       </Breakpoint>
       <Tracepoint>
         <THDelay>0</THDelay>
@@ -4853,31 +4949,16 @@
         </Book>
         <Book>
           <Number>2</Number>
-          <Title>User Manual (NUCLEO-F030R8)</Title>
-          <Path>C:\Keil_v5\ARM\PACK\Keil\STM32NUCLEO_BSP\1.4.0\Documents\DM00105823.pdf</Path>
+          <Title>STM32F030-Discovery Web Page (STM32F030-Discovery)</Title>
+          <Path>http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1848/PF259100</Path>
         </Book>
         <Book>
           <Number>3</Number>
-          <Title>Overview (NUCLEO-F030R8)</Title>
-          <Path>C:\Keil_v5\ARM\PACK\Keil\STM32NUCLEO_BSP\1.4.0\Documents\DM00105918.pdf</Path>
-        </Book>
-        <Book>
-          <Number>4</Number>
-          <Title>Getting started (NUCLEO-F030R8)</Title>
-          <Path>C:\Keil_v5\ARM\PACK\Keil\STM32NUCLEO_BSP\1.4.0\Documents\DM00105925.pdf</Path>
-        </Book>
-        <Book>
-          <Number>5</Number>
-          <Title>Schematics (NUCLEO-F030R8)</Title>
-          <Path>C:\Keil_v5\ARM\PACK\Keil\STM32NUCLEO_BSP\1.4.0\Documents\MB1136.pdf</Path>
-        </Book>
-        <Book>
-          <Number>6</Number>
           <Title>STM32 Nucleo board (NUCLEO-F030R8)</Title>
           <Path>http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1847/PF259997</Path>
         </Book>
         <Book>
-          <Number>7</Number>
+          <Number>4</Number>
           <Title>STM32F030-Discovery Web Page (STM32F030-Discovery)</Title>
           <Path>http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1848/PF259100</Path>
         </Book>
@@ -4931,7 +5012,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>JL2CM3</Key>
-          <Name>-U286370559 -O111 -S2 -ZTIFSpeedSel5000 -A0 -C0 -JU1 -JI127.0.0.1 -JP0 -RST0 -N00("ARM CoreSight SW-DP") -D00(0BB11477) -L00(0) -TO18 -TC10000000 -TP21 -TDS8004 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -TB1 -TFE0 -FO15 -FD20000000 -FC1000 -FN1 -FF0STM32F0xx_64.FLM -FS08000000 -FL010000 -FP0($$Device:STM32F030C8$Flash\STM32F0xx_64.FLM)</Name>
+          <Name>-U4294967295 -O111 -S2 -ZTIFSpeedSel5000 -A0 -C0 -JU1 -JI127.0.0.1 -JP0 -RST0 -N00("ARM CoreSight SW-DP") -D00(0BB11477) -L00(0) -TO18 -TC10000000 -TP21 -TDS8004 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -TB1 -TFE0 -FO15 -FD20000000 -FC1000 -FN1 -FF0STM32F0xx_64.FLM -FS08000000 -FL010000 -FP0($$Device:STM32F030C8$Flash\STM32F0xx_64.FLM)</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -4958,9 +5039,25 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
+          <LineNumber>129</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134225326</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>..\STM32_DevInit.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\STM32F030xC\../STM32_DevInit.c\129</Expression>
+        </Bp>
+        <Bp>
+          <Number>1</Number>
+          <Type>0</Type>
           <LineNumber>1348</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134232774</Address>
+          <Address>134232778</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -4972,11 +5069,11 @@
           <Expression>\\STM32F030xC\../MPU6050dmp/inv_mpu_dmp_motion_driver.c\1348</Expression>
         </Bp>
         <Bp>
-          <Number>1</Number>
+          <Number>2</Number>
           <Type>0</Type>
           <LineNumber>1335</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134232698</Address>
+          <Address>134232712</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -4988,11 +5085,11 @@
           <Expression>\\STM32F030xC\../MPU6050dmp/inv_mpu_dmp_motion_driver.c\1335</Expression>
         </Bp>
         <Bp>
-          <Number>2</Number>
+          <Number>3</Number>
           <Type>0</Type>
           <LineNumber>1326</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134232634</Address>
+          <Address>134232658</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -5002,22 +5099,6 @@
           <Filename>..\MPU6050dmp\inv_mpu_dmp_motion_driver.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression>\\STM32F030xC\../MPU6050dmp/inv_mpu_dmp_motion_driver.c\1326</Expression>
-        </Bp>
-        <Bp>
-          <Number>3</Number>
-          <Type>0</Type>
-          <LineNumber>1332</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134232690</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>..\MPU6050dmp\inv_mpu_dmp_motion_driver.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\STM32F030xC\../MPU6050dmp/inv_mpu_dmp_motion_driver.c\1332</Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>
@@ -5841,6 +5922,22 @@
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
+        <Bp>
+          <Number>39</Number>
+          <Type>0</Type>
+          <LineNumber>129</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>..\STM32_DevInit.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
       </Breakpoint>
       <Tracepoint>
         <THDelay>0</THDelay>
@@ -6621,6 +6718,22 @@
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
+        <Bp>
+          <Number>39</Number>
+          <Type>0</Type>
+          <LineNumber>129</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>..\STM32_DevInit.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
       </Breakpoint>
       <Tracepoint>
         <THDelay>0</THDelay>
@@ -7047,7 +7160,7 @@
 
   <Group>
     <GroupName>include</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -7276,7 +7389,7 @@
 
   <Group>
     <GroupName>MPU6050dmp</GroupName>
-    <tvExp>1</tvExp>
+    <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>

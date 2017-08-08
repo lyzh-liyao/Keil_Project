@@ -396,12 +396,12 @@ ARM Macro Assembler    Page 7
 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
 ork --depend=stm32f030xc\startup_stm32f030.d -ostm32f030xc\startup_stm32f030.o 
--IE:\robot_project\keil_project\STM32M0_MPU6050_DMP\CODE\project\MDK-ARM\RTE -I
-C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include -IC:\Keil_v5\ARM\CM
-SIS\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA
- 516" --predefine="STM32F030 SETA 1" --list=.\stm32f030xc\startup_stm32f030.lst
- ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\CMSIS\Device\ST\STM32F0xx\Source\
-Templates\arm\startup_stm32f030.s
+-IE:\LiyaoProject\Keil_Project\STM32M0_MPU6050_DMP\CODE\project\MDK-ARM\RTE -IC
+:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include -IC:\Keil_v5\ARM\CMS
+IS\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 
+516" --predefine="STM32F030 SETA 1" --list=.\stm32f030xc\startup_stm32f030.lst 
+..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\CMSIS\Device\ST\STM32F0xx\Source\T
+emplates\arm\startup_stm32f030.s
 
 
 

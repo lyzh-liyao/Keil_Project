@@ -1,0 +1,3 @@
+---- timeTick_1msFlag Æ¥Åä (2 in 2 ÎÄ¼ş) ----
+Main.c:uint16_t timeTick_1msFlag = 0;
+Main.h (include):extern volatile uint16_t timeTick_1msFlag;

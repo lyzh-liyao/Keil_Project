@@ -1,0 +1,17 @@
+.\iap.o: ..\iap.c
+.\iap.o: ..\include\iap.h
+.\iap.o: ..\include\tool.h
+.\iap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\iap.o: C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\stm32f0xx.h
+.\iap.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\CMSIS\Include\core_cm0.h
+.\iap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\iap.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\CMSIS\Include\core_cmInstr.h
+.\iap.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\CMSIS\Include\core_cmFunc.h
+.\iap.o: C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h
+.\iap.o: ..\include\stm32f0xx_conf.h
+.\iap.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h
+.\iap.o: C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\stm32f0xx.h
+.\iap.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h
+.\iap.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h
+.\iap.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h
+.\iap.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h

@@ -1,0 +1,13 @@
+.\output\pid.o: ..\Driver\PID.c
+.\output\pid.o: ..\Driver\PID.h
+.\output\pid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\pid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\pid.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\output\pid.o: ..\CMSIS\CM3\CoreSupport\core_cm3.h
+.\output\pid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\pid.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\output\pid.o: ..\USER\stm32f10x_conf.h
+.\output\pid.o: ..\Libraries\inc\stm32f10x_gpio.h
+.\output\pid.o: ..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\output\pid.o: ..\Libraries\inc\stm32f10x_usart.h
+.\output\pid.o: ..\Libraries\inc\misc.h

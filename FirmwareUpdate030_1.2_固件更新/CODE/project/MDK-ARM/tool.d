@@ -1,0 +1,17 @@
+.\tool.o: ..\tool.c
+.\tool.o: C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\stm32f0xx.h
+.\tool.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\CMSIS\Include\core_cm0.h
+.\tool.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\tool.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\CMSIS\Include\core_cmInstr.h
+.\tool.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\CMSIS\Include\core_cmFunc.h
+.\tool.o: C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\system_stm32f0xx.h
+.\tool.o: ..\include\stm32f0xx_conf.h
+.\tool.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_gpio.h
+.\tool.o: C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include\stm32f0xx.h
+.\tool.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h
+.\tool.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h
+.\tool.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h
+.\tool.o: ..\..\library\STM32F0xx_StdPeriph_Lib_V1.5.0\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h
+.\tool.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\tool.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\tool.o: ..\include\tool.h

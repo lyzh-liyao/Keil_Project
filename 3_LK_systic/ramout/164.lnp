@@ -1,5 +1,0 @@
---cpu Cortex-M3 ".\ramout\main.o" ".\ramout\stm32f10x_it.o" ".\ramout\stm32f10x_gpio.o" ".\ramout\stm32f10x_lib.o" ".\ramout\stm32f10x_rcc.o" ".\ramout\stm32f10x_usart.o" ".\ramout\stm32f10x_systick.o" ".\ramout\stm32f10x_spi.o" ".\ramout\cortexm3_macro.o" ".\ramout\stm32f10x_vector.o" ".\ramout\driver.o" 
---strict --scatter ".\ramout\164.sct" 
---summary_stderr --info summarysizes --map --xref --callgraph --symbols 
---info sizes --info totals --info unused --info veneers 
- --list ".\outlist\164.map" -o .\ramout\164.axf
